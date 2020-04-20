@@ -1,0 +1,295 @@
+body {
+    background-color: lightgrey;
+}
+
+.header1 {
+    position: relative;
+    top: 270px;
+    right: -500px;
+    font-size: 27px;
+    font-family: Arial;
+    color: white;
+    z-index: 1;
+}
+
+.header2 {
+    position: relative;
+    top: 280px;
+    right: -500px;
+    font-size: 18px;
+    font-family: Arial;
+    color: white;
+    z-index: 1;
+}
+
+
+.big-blue-header {
+    height: 350px;
+    width: 850px;
+    background-color: rgb(67, 67, 155);
+    position: relative;
+    right: -285px;
+    top: -60px;
+
+}
+
+
+.navbar {
+    height: 40px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    position: relative;
+    top: -258px;
+    right: -43.8px;
+}
+
+.profile-photo {
+    height: 180px;
+    width: 180px;
+    background-color: rgb(67, 67, 155);
+    border: 1px solid black;
+    position: relative;
+    top: -220px;
+    right: -300px;
+    border-radius: 1.75px;
+    z-index: 1;
+}
+ul {
+    color: black;
+    font-family: Tahoma;
+    list-style-type: none;
+    position: relative;
+    right: -200px;
+    font-size: 15px;
+    top: 10px;
+    
+}
+
+.Timeline {
+    float: left;
+    padding-right: 12px;
+    font-family: Tahoma;
+    position: relative;
+    right: 20px;
+
+}
+
+
+ .About {
+    float: left;
+    padding-right: 12px;
+}
+
+.Welcome {
+    float: left;
+    padding-right: 12px;
+}
+
+.FWB {
+    float:left;
+    padding-right: 12px;
+}
+
+.More {
+    float: left;
+    padding-right: 12px
+}
+
+.arrow-down {
+    float: left;
+    padding-right: 12px;
+}
+
+.Timeline:hover {
+    text-decoration: underline;
+}
+
+    
+.arrow-down {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+
+.Like {
+    float: left;
+    padding-right: 12px;
+    position: relative;
+    top: -365px;
+    right: -625px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    margin: 2px;
+    width: 45px;
+    background: whitesmoke;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+
+.Follow {
+    float: left;
+    padding-right: 12px;
+    position: relative;
+    top: -365px;
+    right: -633px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 2px;
+    width: 70px;
+    background: whitesmoke;
+    border-radius: 3px;
+    font-size: 12px;
+    color: gray;
+    
+}
+
+.Message {
+    float: left;
+    padding-right: 12px;
+    position: relative;
+    top: -365px;
+    right: -618px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    margin: 2px;
+    width: 80px;
+    background: whitesmoke;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.Dots {
+    float: left;
+    padding-right: 12px;
+    position: relative;
+    top: -365px;
+    right: -610px;
+    width: 15px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 2px;
+    background: whitesmoke;
+    border-radius: 3px;
+    font-size: 12px;
+}    
+ 
+.container-grid {
+    display: grid;
+    grid-template-columns: 328px 512px;
+    height: 40vh;
+    column-gap: 10px;
+    position: relative;
+    top: -250px;
+    right: 25px;
+  }
+  
+  .col-1 {
+    background-color: whitesmoke;
+    height: 190px;
+    font-family: Tahoma;
+    font-size: 15px;
+    padding: 5px;
+    
+
+  }
+  
+  .col-2 {
+    background-color: whitesmoke;
+    height: 293px;
+    padding: 7px;
+  }
+
+  .solid1 {
+    border-top: 2px solid lightgray;
+    width: 326px;
+    position: relative;
+    right: 5px;
+  }
+
+  .solid2 {
+    border-top: 2px solid lightgray;
+    width:326px;
+    position: relative;
+    right: 5px;
+  }
+
+  card2:hover {
+    text-decoration: underline;
+  }
+
+  card3 {
+      color: rgb(67, 67, 155);
+      font-family: tahoma;
+      font-size: 13px;
+      position: relative;
+      right: -65px;
+      top: 10px;
+  }
+
+  card4 {
+      font-family: tahoma;
+      font-size: 13px;
+      position: relative;
+      right: -65px;
+      top: 10px;
+  }
+
+  card5 {
+      color: rgb(67, 67, 155);
+      font-family: tahoma;
+      font-size: 13px;
+      position: relative;
+      right: -65px;
+      top: 10px;
+
+  }
+
+  card6 {
+      color: rgb(123, 126, 126);
+      font-family: tahoma;
+      font-size: 12px;
+      position: relative;
+      right: -65px;
+      top: 10px;
+  }
+
+  card7 {
+      color: rgb(67, 67, 155);
+      font-family: tahoma;
+      font-size: 13px;
+      position: relative;
+  }
+
+  .small-profile-photo {
+      height: 45px;
+      width: 45px;
+      background-color: rgb(67, 67, 155);
+      position: relative;
+      top: -280px;
+      right: -10px;
+  }
+
+  .solid3 {
+    border-top: 2px solid lightgray;
+    width: 510px;
+    position: relative;
+    right: 7px;
+  }
+
+  .blue-pic {
+      height: 185px;
+      width: 512px;
+      background-color: rgb(67, 67, 155);
+      position: relative;
+      top: 60px;
+      right: 16.8px;
+  }
+
